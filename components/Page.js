@@ -12,19 +12,30 @@ const GlobalStyled = createGlobalStyle`
   }
     html {
         --grey: #EEEEEE;
-        --black: #595758;
-        --red: #DB8A74;
-        --green: #09BC8A;
-        --blue: #5995ED;
+        --black: #071013;
+        --red: #FF6F59;
+        box-sizing: border-box;
     }
     body {
         background: var(--grey);
         font-family: 'Share Tech', --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
-    * {
+    button {
+      font-family: 'Share Tech', --apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      outline: none;
+      cursor: pointer;
+    }
+
+    input {
+      outline: none;
+    }
+
+    *, *:before, *:after {
+      box-sizing:  inherit;
       margin: 0;
     }
+
 `;
 
 const Page = ({ children }) => (
