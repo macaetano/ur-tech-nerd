@@ -21,7 +21,7 @@ const StyledHeader = styled.div`
 const Header = () => (
   <StyledHeader>
     <Link href="/">
-      <Logo>UR Tech Nerd</Logo>
+      <Logo>Ur Tech Nerd &#x1f913;</Logo>
     </Link>
     <Nav />
   </StyledHeader>
