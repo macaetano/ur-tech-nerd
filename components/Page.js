@@ -15,6 +15,7 @@ const GlobalStyled = createGlobalStyle`
         --black: #071013;
         --red: #FF6F59;
         box-sizing: border-box;
+        color: var(--black);
     }
     body {
         background: var(--grey);
