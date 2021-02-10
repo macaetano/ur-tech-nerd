@@ -12,7 +12,7 @@ const GridContainer = styled.div`
 `;
 
 const Item = styled.div`
-  box-shadow: 0 4px 10px rgb(32 33 36 / 28%);
+  box-shadow: var(--box-shadow);
   display: flex;
   flex-direction: column;
   height: 450px;
@@ -25,7 +25,7 @@ const Item = styled.div`
     }
     h4 {
       position: absolute;
-      box-shadow: 0 4px 10px rgb(32 33 36 / 28%);
+      box-shadow: var(--box-shadow);
       background-color: var(--red);
       color: white;
       transform: rotate(20deg);

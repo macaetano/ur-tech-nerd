@@ -14,6 +14,7 @@ const GlobalStyled = createGlobalStyle`
         --grey: #EEEEEE;
         --black: #071013;
         --red: #FF6F59;
+        --box-shadow: 0 4px 10px rgb(32 33 36 / 28%);
         box-sizing: border-box;
         color: var(--black);
     }
@@ -28,8 +29,9 @@ const GlobalStyled = createGlobalStyle`
       cursor: pointer;
     }
 
-    input {
+    input, textarea {
       outline: none;
+      color: var(--black);
     }
 
     *, *:before, *:after {
