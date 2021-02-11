@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import ImageInput from "../components/ImageInput";
+import Button from "../components/styles/Button";
 
 import Input from "../components/styles/Input";
 
@@ -10,6 +12,7 @@ const CardForm = styled.div`
 
   h2 {
     text-align: center;
+    margin-bottom: 1rem;
   }
 
   .body {
@@ -24,10 +27,11 @@ export default function Sell() {
       <CardForm>
         <h2>Spec Sheet &#128203;</h2>
         <div className="body">
+          <ImageInput />
           <Input label="Name" />
           <Input label="Price 💰" type="number" />
           <Input label="Description" textArea />
-          <input type="file" accept="image/*" />
+          <Button>Add Tech</Button>
         </div>
       </CardForm>
     </div>
