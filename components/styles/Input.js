@@ -13,7 +13,7 @@ const InputContainer = styled.div`
   input,
   textarea {
     outline: none;
-    border: 2px solid var(--black);
+    border: 2px solid var(--secondary);
     width: 100%;
   }
 

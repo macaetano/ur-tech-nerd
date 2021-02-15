@@ -16,7 +16,7 @@ const SearchContainer = styled.div`
     border: 0;
     padding-left: 8px;
     background: var(--red);
-    color: white;
+    color: var(--white);
     text-transform: uppercase;
   }
 `;
